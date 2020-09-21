@@ -113,6 +113,7 @@
     <None Include="..\resource\en.ico">
       <Filter>Resource Files</Filter>
     </None>
+    <None Include="ClassDiagram.cd" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="WeaselTSF.rc">

@@ -414,9 +414,13 @@ bool RimeWithWeaselHandler::_ShowMessage(weasel::Context& ctx, weasel::Status& s
 		else if (m_message_value == "ascii_punct")
 			tips = L"，．";
 		else if (m_message_value == "!simplification")
-			tips = L"漢字";
+			tips = L"简体";
 		else if (m_message_value == "simplification")
-			tips = L"汉字";
+			tips = L"繁体";
+		else if (m_message_value == "!extended_charset")
+			tips = L"常用";
+		else if (m_message_value == "extended_charset")
+			tips = L"扩展";
 	}
 	if (tips.empty() && !show_icon)
 		return m_ui->IsCountingDown();

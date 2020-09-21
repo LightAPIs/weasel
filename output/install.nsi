@@ -7,7 +7,7 @@
 Unicode true
 
 !ifndef WEASEL_VERSION
-!define WEASEL_VERSION 1.0.0
+!define WEASEL_VERSION 0.14.3
 !endif
 
 !ifndef WEASEL_BUILD
